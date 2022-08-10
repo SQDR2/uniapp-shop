@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商城小程序"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "会员页面"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/search/search"
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
+		},
+		{
+			"path": "pages/navs/goods/list",
+			"style": {
+				"navigationBarTitleText": "商城列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/navs/pics/pics",
+			"style": {
+				"navigationBarTitleText": "图片社区"
+			}
+		},
+		{
+			"path": "pages/navs/contact/contact",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/navs/videos/videos",
+			"style": {
+				"navigationBarTitleText": "学习视频"
+			}
+		},
+		{
+			"path": "pages/news-detail/news-detail",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/good-detail/good-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "商城小程序",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+			"selectedColor": "#3cc51f",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"list": [
+						{
+							"pagePath":"pages/index/index",
+							"text":"首页",
+							"iconPath":"static/icon/home.png",
+							"selectedIconPath":"static/icon/home-active.png"
+						},
+						{
+							"pagePath":"pages/news/news",
+							"text":"资讯",
+							"iconPath":"static/icon/news.png",
+							"selectedIconPath":"static/icon/news-active.png"
+						},
+						{
+							"pagePath":"pages/cart/cart",
+							"text":"购物车",
+							"iconPath":"static/icon/cart.png",
+							"selectedIconPath":"static/icon/cart-active.png"
+						},
+						{
+							"pagePath":"pages/member/member",
+							"text":"会员",
+							"iconPath":"static/icon/member.png",
+							"selectedIconPath":"static/icon/member-active.png"
+						}
+					]
+	}
+}
